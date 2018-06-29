@@ -1,8 +1,6 @@
-Please refer 
+Please refer the wiki page for more information
 
 Demo: https://minhlong.github.io/Front-End-Auto-Refresh-Browser
-
-Source code: https://github.com/minhlong/Front-End-Auto-Refresh-Browser
 
 ## Build
 
