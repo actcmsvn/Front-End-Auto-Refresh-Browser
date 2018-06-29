@@ -8,23 +8,19 @@ Chuyện là hôm rồi mình có làm 1 trang frond-end cho boss. Trang này c�
 
 ... 1 ngày sau ... nhận được email của boss ...
 
-```
-Sao cái ảnh Ngọc Trinh trắng nõn thế kia mà chú đã làm gì trông nó ngà ngà, nhìn nó sến thế? Cơ mà nếu đã thế thì chú chuyển cho anh sang màu "hồng phấn" nhé. Anh thích Trinh với nước da mịn màng hồng phấn cơ :D
-```
+> Sao cái ảnh Ngọc Trinh trắng nõn thế kia mà chú đã làm gì trông nó ngà ngà, nhìn nó sến thế? Cơ mà nếu đã thế thì chú chuyển cho anh sang màu "hồng phấn" nhé. Anh thích Trinh với nước da mịn màng hồng phấn cơ :D
 
 ... thế là dev tôi ... lại cọc cọc ... css chuyển sang màu hồng phấn ... rồi deploy lên server ... test lại lần cuối ... rồi lại mail báo boss ...
 
 ... 1 ngày sau ... nhận được email của boss ...
 
-```
-"Quắc Thị Phụng" ? Sáng nay anh bật lên vẫn thấy màu vàng ngà ngà ...
-```
+> "Quắc Thị Phụng" ? Sáng nay anh bật lên vẫn thấy màu vàng ngà ngà ...
 
 ## Vấn Đề
 
 Với sự cố trên, đó là do trình duyệt web (Browser) đã tự động cache trang web để tối ưu hiệu năng. Đây là một thế mạnh của các framework frond-end (Angular, React, ... ) nhưng cũng là 1 sự bất tiện khi trang web đã được cập nhật sang version mới nhưng người dùng lại vẫn dùng version cũ.
 
-    Ghi Chú: Nếu có framework hoặc tip nào khác đã hỗ trợ chuyện này rồi thì các bạn comment góp ý nhé. Cảm ơn các bạn
+> Ghi Chú: Nếu có framework hoặc tip nào khác đã hỗ trợ chuyện này rồi thì các bạn comment góp ý nhé. Cảm ơn các bạn
 
 **Và các thử nghĩ xem ... có đời nào ... các bạn lại bắt người dùng lâu lâu phải refresh (Ctrl + F5) trình duyệt của mình 1 lần để bắt người dùng cập nhật lại xem có gì mới không? Mà nếu thế thì frond-end của mình cũng mất đi hiệu năng**
 
