@@ -1,8 +1,5 @@
-export const environment = {
-  production: true,
-  versionCheckURL: '/version.json',
-  version: '1.0.001',
+import { environment as env } from './env.default';
 
-  // Auto check and refresh browser after 60 seconds
-  versionFrequency: 1000 * 60,
-};
+env.production = false;
+
+export const environment = env;

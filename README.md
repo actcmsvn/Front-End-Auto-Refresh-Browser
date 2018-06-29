@@ -1,27 +1,36 @@
-# AutoRefreshBrowser
+Please refer 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+Demo: https://minhlong.github.io/Front-End-Auto-Refresh-Browser
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Source code: https://github.com/minhlong/Front-End-Auto-Refresh-Browser
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+#### Config
 
-## Running unit tests
+Update `version` in environment and version.json file before building and deploy source code on server. The browser will be updated **automatically** base on the `version`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+// env.default.ts
+export const environment = {
+  ...
+  version: 'x.x.xxx',
+ 
+  // Auto check and refresh browser after 60 seconds
+  versionFrequency: 1000 * 60,
+  ...
+};
+```
 
-## Running end-to-end tests
+```
+// version.json
+{
+  version: 'x.x.xxx',
+}
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+#### Build
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+ng build --prod --output-path docs --base-href Front-End-Auto-Refresh-Browser
+```
