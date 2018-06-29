@@ -65,9 +65,13 @@ fond-end.site.com/version.json
     }
 ```
 
+![ScreenShot](https://github.com/minhlong/Front-End-Auto-Refresh-Browser/raw/master/screeenshot.png?raw=true)
+
 ## Kết
 
 Thật ra vấn đề này hôm trước có 1 người bạn hỏi mình, mà mình cũng không để tâm lắm. Cho đến khi boss hỏi mình thì mình mới đi tìm hiểu... rồi lùng sục. Tip tuy đơn giản ... nhưng thực sự trước khi đọc được bài viết gốc ... mình cũng hơi đuối. Tuy nhiên, nếu bạn nào có giải pháp gì hay hơn thì góp ý cho mình với nhé.
+
+**Lưu ý:** Trong source code bài viết này mình đã dùng Angular để viết chứ không phải html + javascript thuần nhé. 
 
 ## Tham Khảo
 
